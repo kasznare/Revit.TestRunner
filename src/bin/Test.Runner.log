@@ -47,3 +47,43 @@
 2019-10-09 08:16:47,532 [1] INFO  Revit.TestRunner.Log -  >> Revit.TestRunner.SampleTestProject.RevitTest.XyzTest - Passed - 
 2019-10-09 08:16:50,446 [1] INFO  Revit.TestRunner.Log -  >> Revit.TestRunner.SampleTestProject.RevitTest.XyzMultiplyTest - Passed - 
 2019-10-09 08:16:52,895 [1] INFO  Revit.TestRunner.Log -  >> Revit.TestRunner.SampleTestProject.ParameterTest.UiApplicationTest - Passed - 
+2019-10-09 08:56:58,714 [1] INFO  Revit.TestRunner.Log -  >> RevitAddinTest.ParameterTest.ApplicationTest - Passed - 
+2019-10-09 08:57:01,104 [1] INFO  Revit.TestRunner.Log -  >> RevitAddinTest.ParameterTest.MultiParameterTest1 - Passed - 
+2019-10-09 08:57:03,519 [1] INFO  Revit.TestRunner.Log -  >> RevitAddinTest.ParameterTest.MultiParameterTest2 - Passed - 
+2019-10-09 08:57:07,286 [1] INFO  Revit.TestRunner.Log -  >> RevitAddinTest.ParameterTest.UiApplicationTest - Passed - 
+2019-10-09 08:58:44,751 [1] INFO  Revit.TestRunner.Log -  >> RevitAddinTest.ParameterTest.ApplicationTest - Passed - 
+2019-10-09 08:58:44,752 [1] INFO  Revit.TestRunner.Log -  >> RevitAddinTest.ParameterTest.MultiParameterTest1 - Passed - 
+2019-10-09 08:58:44,754 [1] INFO  Revit.TestRunner.Log -  >> RevitAddinTest.ParameterTest.MultiParameterTest2 - Passed - 
+2019-10-09 08:58:44,755 [1] INFO  Revit.TestRunner.Log -  >> RevitAddinTest.ParameterTest.UiApplicationTest - Passed - 
+2019-10-09 08:58:44,757 [1] INFO  Revit.TestRunner.Log -  >> RevitAddinTest.RevitTest.XyzMultiplyTest - Passed - 
+2019-10-09 08:58:44,760 [1] INFO  Revit.TestRunner.Log -  >> RevitAddinTest.RevitTest.XyzTest - Passed - 
+2019-10-09 08:58:44,761 [1] INFO  Revit.TestRunner.Log -  >> RevitAddinTest.RibbonTest.FileExists - Passed - 
+2019-10-09 08:58:44,763 [1] INFO  Revit.TestRunner.Log -  >> RevitAddinTest.RibbonUnitTest.TestMethod1 - Passed - 
+2019-10-09 08:58:44,769 [1] ERROR Revit.TestRunner.Log - NUnit.Framework.AssertionException: Multiple failures or warnings in test:
+  1)   This Test should fail!
+  Expected: True
+  But was:  False
+
+  2)   This Test should fail!
+  Expected: True
+  But was:  False
+
+
+   at NUnit.Framework.Assert.ReportFailure(String message) in D:\a\1\s\src\NUnitFramework\framework\Assert.cs:line 394
+   at NUnit.Framework.Assert.That[TActual](TActual actual, IResolveConstraint expression, String message, Object[] args) in D:\a\1\s\src\NUnitFramework\framework\Assert.That.cs:line 241
+   at RevitAddinTest.SampleTest.FailTest() in C:\Users\andras.kasznar\Documents\Source\Repos\INEX\RevitAddinTest\SampleTest.cs:line 24
+2019-10-09 08:58:44,771 [1] INFO  Revit.TestRunner.Log -  >> RevitAddinTest.SampleTest.FailTest - Failed - Multiple failures or warnings in test:
+  1)   This Test should fail!
+  Expected: True
+  But was:  False
+
+  2)   This Test should fail!
+  Expected: True
+  But was:  False
+
+
+2019-10-09 08:58:44,772 [1] INFO  Revit.TestRunner.Log -  >> RevitAddinTest.SampleTest.PassTest - Passed - 
+2019-10-09 13:06:53,422 [1] INFO  Revit.TestRunner.Log - Revit.TestRunner started '2019. 10. 09. 13:06:53'
+2019-10-09 13:06:53,431 [1] INFO  Revit.TestRunner.Log - Microsoft Windows NT 10.0.18362.0, NetFX 4.0.30319.42000
+2019-10-09 13:06:53,434 [1] DEBUG Revit.TestRunner.Log - Log Directory 'C:\Users\andras.kasznar\Documents\RevitAddin\Revit.TestRunner\src\bin'
+2019-10-09 13:06:53,434 [1] DEBUG Revit.TestRunner.Log - CurrentAppDomain.ApplicationBase 'C:\Program Files\Autodesk\Revit 2019\'
