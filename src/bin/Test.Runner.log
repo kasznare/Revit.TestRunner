@@ -20,3 +20,30 @@
   But was:  False
 
 2019-10-07 10:56:43,050 [1] INFO  Revit.TestRunner.Log -  >> Revit.TestRunner.SampleTestProject.SampleTest.PassTest - Passed - 
+2019-10-09 08:14:32,625 [1] INFO  Revit.TestRunner.Log - Revit.TestRunner started '2019. 10. 09. 8:14:32'
+2019-10-09 08:14:32,634 [1] INFO  Revit.TestRunner.Log - Microsoft Windows NT 10.0.18362.0, NetFX 4.0.30319.42000
+2019-10-09 08:14:32,637 [1] DEBUG Revit.TestRunner.Log - Log Directory 'C:\Users\andras.kasznar\Documents\RevitAddin\Revit.TestRunner\src\bin'
+2019-10-09 08:14:32,637 [1] DEBUG Revit.TestRunner.Log - CurrentAppDomain.ApplicationBase 'C:\Program Files\Autodesk\Revit 2018\'
+2019-10-09 08:15:55,895 [1] INFO  Revit.TestRunner.Log - Revit.TestRunner started '2019. 10. 09. 8:15:55'
+2019-10-09 08:15:55,904 [1] INFO  Revit.TestRunner.Log - Microsoft Windows NT 10.0.18362.0, NetFX 4.0.30319.42000
+2019-10-09 08:15:55,907 [1] DEBUG Revit.TestRunner.Log - Log Directory 'C:\Users\andras.kasznar\Documents\RevitAddin\Revit.TestRunner\src\bin'
+2019-10-09 08:15:55,907 [1] DEBUG Revit.TestRunner.Log - CurrentAppDomain.ApplicationBase 'C:\Program Files\Autodesk\Revit 2018\'
+2019-10-09 08:16:22,975 [1] INFO  Revit.TestRunner.Log -  >> Revit.TestRunner.SampleTestProject.ParameterTest.ApplicationTest - Passed - 
+2019-10-09 08:16:27,046 [1] INFO  Revit.TestRunner.Log -  >> Revit.TestRunner.SampleTestProject.ParameterTest.ApplicationTest - Passed - 
+2019-10-09 08:16:30,182 [1] INFO  Revit.TestRunner.Log -  >> Revit.TestRunner.SampleTestProject.ParameterTest.MultiParameterTest1 - Passed - 
+2019-10-09 08:16:33,373 [1] INFO  Revit.TestRunner.Log -  >> Revit.TestRunner.SampleTestProject.ParameterTest.MultiParameterTest2 - Passed - 
+2019-10-09 08:16:38,767 [1] ERROR Revit.TestRunner.Log - NUnit.Framework.AssertionException:   This Test should fail!
+  Expected: True
+  But was:  False
+
+   at NUnit.Framework.Assert.ReportFailure(String message) in D:\a\1\s\src\NUnitFramework\framework\Assert.cs:line 394
+   at NUnit.Framework.Assert.That[TActual](TActual actual, IResolveConstraint expression, String message, Object[] args) in D:\a\1\s\src\NUnitFramework\framework\Assert.That.cs:line 241
+   at Revit.TestRunner.SampleTestProject.SampleTest.FailTest() in C:\Users\andras.kasznar\Documents\RevitAddin\Revit.TestRunner\src\Revit.TestRunner.SampleTestProject\SampleTest.cs:line 30
+2019-10-09 08:16:38,772 [1] INFO  Revit.TestRunner.Log -  >> Revit.TestRunner.SampleTestProject.SampleTest.FailTest - Failed -   This Test should fail!
+  Expected: True
+  But was:  False
+
+2019-10-09 08:16:44,630 [1] INFO  Revit.TestRunner.Log -  >> Revit.TestRunner.SampleTestProject.SampleTest.PassTest - Passed - 
+2019-10-09 08:16:47,532 [1] INFO  Revit.TestRunner.Log -  >> Revit.TestRunner.SampleTestProject.RevitTest.XyzTest - Passed - 
+2019-10-09 08:16:50,446 [1] INFO  Revit.TestRunner.Log -  >> Revit.TestRunner.SampleTestProject.RevitTest.XyzMultiplyTest - Passed - 
+2019-10-09 08:16:52,895 [1] INFO  Revit.TestRunner.Log -  >> Revit.TestRunner.SampleTestProject.ParameterTest.UiApplicationTest - Passed - 
